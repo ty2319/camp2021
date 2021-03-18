@@ -1,0 +1,126 @@
+//width&height ------------------
+
+$max: 100%;
+
+$f: 400px;
+
+$s: 700px;
+
+$th: 1000px;
+
+$of: 1500px;
+
+$oe: 1800px;
+
+//-------------------------------
+
+
+
+//color -------------------------
+
+$white: #fff;
+
+$black: #000;
+
+$blue: #0278d2;
+
+$blue2: #014385;
+
+//-------------------------------
+
+
+
+//background ------------------------------------------------------------
+
+$back: rgba(black,0.7);
+
+//-----------------------------------------------------------------------
+
+
+
+//position -------------------------
+
+@mixin abT($top,$left,$z) {
+	position: absolute;
+	top: $top;
+	left: $left;
+	z-index: $z;
+}
+
+@mixin abR($top,$right,$z) {
+	position: absolute;
+	top: $top;
+	right: $right;
+	z-index: $z;
+}
+
+@mixin fixT($top,$right,$z) {
+	position: fixed;
+	top: $top;
+	right: $right;
+	z-index: $z;
+}
+
+@mixin fixB($bottom,$left,$z) {
+	position: fixed;
+	bottom: $bottom;
+	left: $left;
+	z-index: $z;
+}
+
+@mixin fixL($top,$left,$z) {
+	position: fixed;
+	top: $top;
+	left: $left;
+	z-index: $z;
+}
+
+$r: relative;
+
+//---------------------------------
+
+
+
+//img path ------------------------
+
+$ip: '../img/';
+
+//---------------------------------
+
+
+//media query ---------------------
+ 
+@mixin media($mediaSize) {
+  @if $mediaSize <= $f{
+    @media all and (max-width: $f) {
+      @content
+    }
+  }
+  
+  @else if $mediaSize <= $s{
+    @media all and (max-width: $s) {
+      @content
+    }
+  }
+  
+  @else if $mediaSize <= $th{
+    @media all and (max-width: $th) {
+      @content
+    }
+  }
+  
+  @else if $mediaSize <= $of{
+    @media all and (max-width: $of) {
+      @content
+    }
+  }
+  
+  @else if $mediaSize <= $oe{
+    @media all and (max-width: $oe) {
+      @content
+    }
+  }
+  
+}
+
+//---------------------------------

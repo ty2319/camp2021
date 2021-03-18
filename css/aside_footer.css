@@ -1,0 +1,94 @@
+/* CSS Document */
+/* line 6, ../sass/aside_footer.scss */
+aside {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  z-index: 1000;
+  margin-top: -7em;
+}
+/* line 10, ../sass/aside_footer.scss */
+aside a {
+  opacity: 0.7;
+  display: block;
+  width: 6em;
+  height: 4em;
+  background: #014385;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 95%;
+  margin: 0 0 50% 10%;
+  padding-top: 2em;
+  text-align: center;
+  border: #fff dashed 2px;
+  line-height: 125%;
+}
+/* line 25, ../sass/aside_footer.scss */
+aside a:hover {
+  color: #014385;
+  opacity: 1;
+}
+@media all and (max-width: 700px) {
+  /* line 6, ../sass/aside_footer.scss */
+  aside {
+    display: none;
+  }
+}
+
+/* line 36, ../sass/aside_footer.scss */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  display: table;
+  width: 100%;
+  font-size: 70%;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+}
+/* line 45, ../sass/aside_footer.scss */
+footer p {
+  width: 70%;
+  padding-left: 1em;
+  display: table-cell;
+  font-weight: bold;
+  line-height: 125%;
+}
+@media all and (max-width: 700px) {
+  /* line 45, ../sass/aside_footer.scss */
+  footer p {
+    display: none;
+  }
+}
+/* line 57, ../sass/aside_footer.scss */
+footer small {
+  display: table-cell;
+  text-align: right;
+  padding-right: 2em;
+  vertical-align: middle;
+}
+
+/* line 65, ../sass/aside_footer.scss */
+#gotop {
+  position: fixed;
+  bottom: -4em;
+  left: 93%;
+  z-index: 1000;
+  display: none;
+  font-size: 120%;
+  color: #fff;
+  background-color: #012a52;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  border-radius: 50%;
+  text-align: center;
+  opacity: 0.8;
+  cursor: pointer;
+}
+/* line 79, ../sass/aside_footer.scss */
+#gotop:hover {
+  opacity: 1;
+}

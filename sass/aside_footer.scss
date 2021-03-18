@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "settings";
+
+aside {
+	@include fixL(50%,0,1000);
+	margin-top: -7em;
+	  
+	a {
+		opacity		 : 0.7;
+        display		 : block;
+        width		 : 6em;
+        height		 : 4em;
+        background	 : $blue2;
+        border-radius: $max / 2;
+        color		 : $white;
+        font-size	 : $max * 0.95;
+        margin		 : 0 0 $max/2 $max/10;
+        padding-top	 : 2em;
+        text-align	 : center;
+        border		 : $white dashed 2px;
+		line-height	 : $max * 1.25; 
+		
+        &:hover {
+          color	 : $blue2;
+          opacity: 1;
+        }
+	}
+	
+	@include media($s) {
+		display: none;
+	}
+}
+	
+footer {
+	@include fixB(0,0,100);
+	display			: table;
+	width			: $max;
+	font-size		: $max * 0.7;
+	padding			: 1em;
+	background-color: rgba($black, 0.8);
+	color			: $white;
+  
+	p {
+		width		: $max * 0.7;
+		padding-left: 1em;
+		display		: table-cell;
+		font-weight	: bold;
+		line-height : $max * 1.25; 
+		
+		@include media($s) {
+			display: none;
+		}
+	}
+  
+	small {
+		display			: table-cell;
+		text-align		: right;
+		padding-right	: 2em;
+		vertical-align	: middle;
+	}
+}
+	
+#gotop {
+	@include fixB(-4em,93%,1000);
+	display 		: none;
+	font-size		: $max * 1.2;
+	color			: $white;
+	background-color: darken($blue2 , 10%);
+	width			: 2em;
+	height			: 2em;
+	line-height		: 2em;
+	border-radius	: $max / 2;
+	text-align		: center;
+	opacity			: 0.8;
+	cursor			: pointer;
+  
+	&:hover {
+		opacity: 1;
+	}
+}

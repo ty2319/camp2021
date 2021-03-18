@@ -1,0 +1,333 @@
+@charset "UTF-8";
+/* CSS Document */
+/* line 6, ../sass/main.scss */
+.bb-custom-wrapper {
+  width: 100%;
+  height: 100%;
+}
+/* line 10, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock {
+  width: 100%;
+  height: 100%;
+}
+/* line 16, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content h2 {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  z-index: 1000;
+  text-align: center;
+  width: 100%;
+}
+/* line 21, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content h2 img {
+  display: block;
+  margin: -5% auto 0 auto;
+  width: 25%;
+  min-width: 200px;
+  height: auto;
+}
+/* line 30, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
+}
+/* line 37, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller header {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 5px #000;
+  background: none;
+  visibility: hidden;
+}
+/* line 45, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller header h3 {
+  font-weight: 300;
+  font-size: 400%;
+}
+@media all and (max-width: 400px) {
+  /* line 45, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller header h3 {
+    font-size: 250%;
+  }
+}
+/* line 54, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller header p {
+  font-weight: 300;
+  font-size: 100%;
+  margin-top: 1em;
+}
+@media all and (max-width: 400px) {
+  /* line 54, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller header p {
+    margin: 0.5em;
+  }
+}
+/* line 65, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section {
+  width: 50%;
+  padding: 4.8em 7%;
+  border-top: gray 1px dotted;
+  border-right: gray 1px dotted;
+  background-color: #fff;
+  background-image: linear-gradient(90deg, rgba(204, 204, 204, 0) 0%, rgba(204, 204, 204, 0) 49%, white 50%, white 100%), linear-gradient(180deg, rgba(204, 204, 204, 0) 0%, rgba(204, 204, 204, 0) 98.3%, #646464 100%);
+  background-size: 4px 100%, 100% 2.4em;
+  line-height: 2.4;
+  position: relative;
+}
+/* line 76, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section .textSplitLoad {
+  display: none;
+}
+/* line 80, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section:nth-of-type(1), .bb-custom-wrapper .bb-bookblock .content .scroller section:nth-of-type(2) {
+  border-top: none;
+}
+@media all and (max-width: 700px) {
+  /* line 84, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller section:nth-of-type(2) {
+    border-top: gray 1px dotted;
+  }
+}
+/* line 90, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section:nth-of-type(2n) {
+  border-right: none;
+}
+@media all and (max-width: 700px) {
+  /* line 65, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller section {
+    width: 100%;
+    padding: 4.8em 5%;
+    border-right: none !important;
+  }
+}
+/* line 100, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section.full {
+  width: 100%;
+  border: none;
+}
+/* line 104, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section.full p {
+  padding-top: 0;
+}
+/* line 109, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section h4 {
+  text-align: center;
+  font-size: 200%;
+  font-weight: 400;
+  padding: 0 10%;
+  color: #012a52;
+  line-height: 1.2em;
+}
+/* line 117, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section h4:after {
+  content: '―';
+  display: block;
+  font-size: 200%;
+  font-weight: 400;
+  padding: 0.6em 0;
+  color: #012a52;
+}
+/* line 127, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section h5 {
+  color: #014385;
+  font-size: 1.5em;
+  margin: 5em 0 3em 0;
+  text-align: center;
+  width: 100%;
+}
+/* line 135, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section > img {
+  position: absolute;
+  top: 15em;
+  left: 14%;
+  z-index: 0;
+  width: 72%;
+  height: auto;
+}
+@media all and (max-width: 700px) {
+  /* line 135, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller section > img {
+    left: 5%;
+    width: 90%;
+  }
+}
+/* line 145, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section > img + p {
+  margin-top: 17em;
+}
+@media all and (max-width: 1800px) {
+  /* line 145, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller section > img + p {
+    margin-top: 14.4em;
+  }
+}
+@media all and (max-width: 700px) {
+  /* line 145, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller section > img + p {
+    margin-top: 21.6em;
+  }
+}
+@media all and (max-width: 400px) {
+  /* line 145, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller section > img + p {
+    margin-top: 14.4em;
+  }
+}
+/* line 162, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section p {
+  text-align: justify;
+  padding-top: 2.4em;
+}
+/* line 167, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section .gallery {
+  width: 100%;
+  padding: 7% 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+/* line 173, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section .gallery li, .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery dd {
+  width: 12.5%;
+  list-style-type: none;
+  box-sizing: border-box;
+  border: #fff solid 0.2px;
+}
+/* line 179, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section .gallery li:nth-of-type(8n), .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery dd:nth-of-type(8n) {
+  padding-right: 0;
+}
+@media all and (max-width: 700px) {
+  /* line 173, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery li, .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery dd {
+    width: 25%;
+    height: 25%;
+  }
+}
+/* line 188, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section .gallery li a, .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery dd a {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+/* line 193, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section .gallery li a img, .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery dd a img {
+  width: 200%;
+  height: auto;
+  margin: -25% 0 0 -25%;
+}
+@media all and (max-width: 700px) {
+  /* line 193, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery li a img, .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery dd a img {
+    margin-top: -5%;
+  }
+}
+/* line 206, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section table {
+  width: 100%;
+  border-collapse: collapse;
+  border: #b3b3b3 1px solid;
+  text-align: center;
+}
+/* line 212, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section table caption {
+  color: #014385;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 5em 0 1em;
+}
+/* line 219, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section table thead, .bb-custom-wrapper .bb-bookblock .content .scroller section table tfoot {
+  color: #fff;
+  background-color: #012a52;
+}
+/* line 224, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section table .blue {
+  background-color: #d4ecff;
+}
+/* line 228, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section table .white {
+  background-color: #fff;
+}
+/* line 232, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section table th {
+  font-weight: 300;
+}
+/* line 236, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section table th, .bb-custom-wrapper .bb-bookblock .content .scroller section table td {
+  border-right: #b3b3b3 1px dotted;
+  padding: 0.5em;
+}
+@media all and (max-width: 700px) {
+  /* line 236, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller section table th, .bb-custom-wrapper .bb-bookblock .content .scroller section table td {
+    padding: 0.2em;
+  }
+}
+/* line 246, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section dl {
+  padding: 0;
+}
+/* line 249, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section dl dt {
+  color: #014385;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 5em 0 1em;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+/* line 259, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section dl dd {
+  width: 25%;
+}
+/* line 262, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section dl dd:nth-of-type(4n) {
+  padding-right: 0;
+}
+/* line 268, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section figure {
+  float: right;
+  width: 40%;
+  margin-left: 10%;
+}
+@media all and (max-width: 700px) {
+  /* line 268, ../sass/main.scss */
+  .bb-custom-wrapper .bb-bookblock .content .scroller section figure {
+    float: none;
+    width: 100%;
+    margin: 0 0 3em 0;
+  }
+}
+/* line 279, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section figure img {
+  width: 100%;
+  height: auto;
+}
+/* line 284, ../sass/main.scss */
+.bb-custom-wrapper .bb-bookblock .content .scroller section figure figcaption {
+  font-size: 0.8em;
+}
+
+/* line 295, ../sass/main.scss */
+.js body .menu-panel {
+  position: absolute;
+  top: 0;
+  right: -240px;
+  z-index: 100;
+}
+/* line 299, ../sass/main.scss */
+.js body .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  bottom: 0;
+  -webkit-font-smoothing: subpixel-antialiased;
+}

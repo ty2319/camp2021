@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import "settings";
+
+html {
+	height		: $max;
+	overflow-x	: hidden;
+	overflow-y	: auto;
+
+	body {
+		font-family :'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+		color		: lighten($black, 30%);
+		width		: $max;
+		font-size	: 16px;
+		line-height	: 1.75em;
+		height		: $max;
+		overflow-x: hidden;
+		overflow-y: auto;
+		
+		@include media($of) {
+			font-size: 0.875rem;
+		}
+		
+		@include media($th) {
+			font-size: 0.75rem;
+		}
+		
+		@include media($s) {
+			font-size: 0.625rem;
+		}
+	
+		a {
+			color			: lighten($black, 80%);;
+			text-decoration	: none;
+			outline			: none;
+		
+			&:hover {
+				color: $white;
+			}
+		}
+		
+		img {
+			border			: none;
+			line-height		: 0;
+			vertical-align	: bottom;
+		}
+		
+		.container {
+			position			: $r;
+			right				: 0;
+			-webkit-transition	: right 0.3s ease-in-out;
+			-o-transition		: right 0.3s ease-in-out;
+			transition			: right 0.3s ease-in-out;
+			width				: $max;
+			height				: $max;
+			
+			&.slideRight {
+				right : 240px;
+				cursor: url(img/cursor.cur), default;
+			}
+		}
+	}
+}
