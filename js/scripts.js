@@ -62,12 +62,12 @@ $(window).on('load resize' , function() {
 	
 	$('header').css({'padding-top' : $(window).width()*0.22 , 'padding-bottom' :  $(window).width()*0.05});
 	
-	$('.gallery li , .gallery dd , .gallery a').height($('.gallery a').outerWidth());
-	
 	if ($(window).width() < 700) {
 		$('figure img').attr('src' , 'img/common/09_2.jpg');
+		$('.gallery li , .gallery dd , .gallery a').height(($(window).width()* 0.07 / 4);
 	} else {
-		$('figure img').attr('src' , 'img/common/09.jpg');		
+		$('figure img').attr('src' , 'img/common/09.jpg');	
+		$('.gallery li , .gallery dd , .gallery a').height(($(window).width()* 0.07 / 8);	
 	}
 });
 // JavaScript Document
