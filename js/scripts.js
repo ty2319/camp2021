@@ -64,10 +64,10 @@ $(window).on('load resize' , function() {
 	
 	if ($(window).width() < 700) {
 		$('figure img').attr('src' , 'img/common/09_2.jpg');
-		$('.gallery li , .gallery dd , .gallery a').height(($(window).width()* 0.07 / 4);
+		$('.gallery li , .gallery dd , .gallery a').height(($(window).width()* 0.86) / 4);
 	} else {
 		$('figure img').attr('src' , 'img/common/09.jpg');	
-		$('.gallery li , .gallery dd , .gallery a').height(($(window).width()* 0.07 / 8);	
+		$('.gallery li , .gallery dd , .gallery a').height(($(window).width()* 0.86) / 8);	
 	}
 });
 // JavaScript Document
