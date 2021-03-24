@@ -196,8 +196,9 @@
   list-style-type: none;
   box-sizing: border-box;
   border: #fff solid 0.2px;
+  overflow: hidden;
 }
-/* line 179, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery li:nth-of-type(8n), .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery dd:nth-of-type(8n) {
   padding-right: 0;
 }
@@ -208,71 +209,71 @@
     height: 25%;
   }
 }
-/* line 188, ../sass/main.scss */
+/* line 189, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery li a, .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery dd a {
   display: block;
   overflow: hidden;
   width: 100%;
 }
-/* line 193, ../sass/main.scss */
+/* line 194, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery li a img, .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery dd a img {
   width: 200%;
   height: auto;
   margin: -25% 0 0 -25%;
 }
 @media all and (max-width: 700px) {
-  /* line 193, ../sass/main.scss */
+  /* line 194, ../sass/main.scss */
   .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery li a img, .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery dd a img {
     margin-top: -5%;
   }
 }
-/* line 206, ../sass/main.scss */
+/* line 207, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section table {
   width: 100%;
   border-collapse: collapse;
   border: #b3b3b3 1px solid;
   text-align: center;
 }
-/* line 212, ../sass/main.scss */
+/* line 213, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section table caption {
   color: #014385;
   font-weight: bold;
   font-size: 1.5em;
   margin: 5em 0 1em;
 }
-/* line 219, ../sass/main.scss */
+/* line 220, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section table thead, .bb-custom-wrapper .bb-bookblock .content .scroller section table tfoot {
   color: #fff;
   background-color: #012a52;
 }
-/* line 224, ../sass/main.scss */
+/* line 225, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section table .blue {
   background-color: #d4ecff;
 }
-/* line 228, ../sass/main.scss */
+/* line 229, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section table .white {
   background-color: #fff;
 }
-/* line 232, ../sass/main.scss */
+/* line 233, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section table th {
   font-weight: 300;
 }
-/* line 236, ../sass/main.scss */
+/* line 237, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section table th, .bb-custom-wrapper .bb-bookblock .content .scroller section table td {
   border-right: #b3b3b3 1px dotted;
   padding: 0.5em;
 }
 @media all and (max-width: 700px) {
-  /* line 236, ../sass/main.scss */
+  /* line 237, ../sass/main.scss */
   .bb-custom-wrapper .bb-bookblock .content .scroller section table th, .bb-custom-wrapper .bb-bookblock .content .scroller section table td {
     padding: 0.2em;
   }
 }
-/* line 246, ../sass/main.scss */
+/* line 247, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section dl {
   padding: 0;
 }
-/* line 249, ../sass/main.scss */
+/* line 250, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section dl dt {
   color: #014385;
   font-weight: bold;
@@ -282,46 +283,46 @@
   display: block;
   width: 100%;
 }
-/* line 259, ../sass/main.scss */
+/* line 260, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section dl dd {
   width: 25%;
 }
-/* line 262, ../sass/main.scss */
+/* line 263, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section dl dd:nth-of-type(4n) {
   padding-right: 0;
 }
-/* line 268, ../sass/main.scss */
+/* line 269, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section figure {
   float: right;
   width: 40%;
   margin-left: 10%;
 }
 @media all and (max-width: 700px) {
-  /* line 268, ../sass/main.scss */
+  /* line 269, ../sass/main.scss */
   .bb-custom-wrapper .bb-bookblock .content .scroller section figure {
     float: none;
     width: 100%;
     margin: 0 0 3em 0;
   }
 }
-/* line 279, ../sass/main.scss */
+/* line 280, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section figure img {
   width: 100%;
   height: auto;
 }
-/* line 284, ../sass/main.scss */
+/* line 285, ../sass/main.scss */
 .bb-custom-wrapper .bb-bookblock .content .scroller section figure figcaption {
   font-size: 0.8em;
 }
 
-/* line 295, ../sass/main.scss */
+/* line 296, ../sass/main.scss */
 .js body .menu-panel {
   position: absolute;
   top: 0;
   right: -240px;
   z-index: 100;
 }
-/* line 299, ../sass/main.scss */
+/* line 300, ../sass/main.scss */
 .js body .content {
   position: absolute;
   top: 0;

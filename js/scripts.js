@@ -62,7 +62,7 @@ $(window).on('load resize' , function() {
 	
 	$('header').css({'padding-top' : $(window).width()*0.22 , 'padding-bottom' :  $(window).width()*0.05});
 	
-	$('.gallery a').height($('.gallery a').outerWidth());
+	$('.gallery li , .gallery dd , .gallery a').height($('.gallery a').outerWidth());
 	
 	if ($(window).width() < 700) {
 		$('figure img').attr('src' , 'img/common/09_2.jpg');

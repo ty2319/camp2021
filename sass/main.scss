@@ -174,7 +174,8 @@
 							width			: $max / 8;
 							list-style-type : none;
 							box-sizing 		: border-box;
-							border 			: $white solid 0.2px;
+							border 			: $white solid 0.2px;							
+							overflow 		: hidden;
 
 							&:nth-of-type(8n) {
 								padding-right: 0;
