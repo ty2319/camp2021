@@ -67,7 +67,7 @@ $(window).on('load resize' , function() {
 		$('.gallery li , .gallery dd , .gallery a').height(($(window).width()* 0.86) / 4);
 	} else {
 		$('figure img').attr('src' , 'img/common/09.jpg');	
-		$('.gallery li , .gallery dd , .gallery a').height(($(window).width()* 0.86) / 8);	
+		$('.gallery li , .gallery dd , .gallery a').height(($(window).width()* 0.86) / 8.5);	
 	}
 });
 // JavaScript Document

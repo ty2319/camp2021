@@ -52,7 +52,7 @@
 @media all and (max-width: 400px) {
   /* line 45, ../sass/main.scss */
   .bb-custom-wrapper .bb-bookblock .content .scroller header h3 {
-    font-size: 250%;
+    font-size: 225%;
   }
 }
 /* line 54, ../sass/main.scss */
@@ -219,7 +219,7 @@
 .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery li a img, .bb-custom-wrapper .bb-bookblock .content .scroller section .gallery dd a img {
   width: 200%;
   height: auto;
-  margin: -25% 0 0 -25%;
+  margin: 0 0 0 -25%;
 }
 @media all and (max-width: 700px) {
   /* line 194, ../sass/main.scss */
