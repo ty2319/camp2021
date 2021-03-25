@@ -2,8 +2,8 @@
 /* line 6, ../sass/header_nav.scss */
 h1 {
   position: absolute;
-  top: 15px;
-  left: 15px;
+  top: 30px;
+  left: 30px;
   z-index: 1000;
   width: 100%;
 }
@@ -11,8 +11,8 @@ h1 {
   /* line 6, ../sass/header_nav.scss */
   h1 {
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 15px;
+    left: 15px;
     z-index: 1000;
   }
 }

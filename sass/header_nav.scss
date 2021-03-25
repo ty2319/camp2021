@@ -4,11 +4,11 @@
 @import "settings";
 
 h1 {
-	@include abT(15px,15px,1000);
+	@include abT(30px,30px,1000);
 	width: $max;
 	
 	@include media($s) {
-		@include abT(5px,5px,1000);
+		@include abT(15px,15px,1000);
 	}
 
 	img {

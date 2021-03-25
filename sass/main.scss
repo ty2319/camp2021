@@ -172,9 +172,7 @@
 
 						li,dd {
 							width			: $max / 8;
-							list-style-type : none;
-							box-sizing 		: border-box;
-							border 			: $white solid 0.2px;							
+							list-style-type : none;				
 							overflow 		: hidden;
 
 							&:nth-of-type(8n) {
@@ -187,9 +185,11 @@
 							}
 
 							a {
-								display : block;
-								overflow: hidden;
-								width 	: $max;
+								display 	: block;
+								overflow 	: hidden;
+								width 	 	: $max;
+								box-sizing 	: border-box;
+								border     	: $white solid 0.5px;			
 
 								 img {
 									width : 200%;
